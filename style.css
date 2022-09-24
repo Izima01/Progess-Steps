@@ -4,6 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 !important;
 }
 
 
@@ -90,29 +91,24 @@ h1 {
     background-color: pink;
 }
 
+.d-none {
+    display: none;
+}
+
 @media (max-width: 850px) {
     .container {
         gap: 32px;
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 700px) {
     .container {
         gap: 28px;
-    }
-    .circle:nth-of-type(8),
-    .circle:nth-of-type(7) {
-        display: none;
     }
 }
 
 @media (max-width: 480px) {
     .container {
         gap: 20px;
-    }
-    .circle:nth-of-type(8),
-    .circle:nth-of-type(7),
-    .circle:nth-of-type(6) {
-        display: none;
     }
 }
