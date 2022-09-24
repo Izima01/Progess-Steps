@@ -1,5 +1,6 @@
 # Progess-Steps
 This is Day 2 of my 30 days of Javacript project
+Live link: https://izima01.github.io/Progess-Steps/
 
 So this one's a progress tracker, when you click on next or previous it updates the progress on the progress bar.
 I made use of the before pseudo element on CSS. Its being an issue for me recently but I think I get it now.
