@@ -12,5 +12,5 @@ Step by step procedure:
 6. Javacript. Got variables for the circles, buttons and the progressbar. Also a variable for active circles.
 7. Added onclick event to the buttons. For the next button, it keeps adding 1 to actve circle until its the same as the number of the circles.
 For the prev button it keeps subtracting 1 from active circles until its 1.
-Then using the value of acyive circles, I loop through the circles and add an "active" class to it if its index+1 is less or equal than active circles.
-Then increase the with of the progress bar sequentially ising the index and the number of circles.
+8. Then using the value of acyive circles, I loop through the circles and add an "active" class to it if its index+1 is less or equal than active circles.
+9. Then increase the with of the progress bar sequentially ising the index and the number of circles.
